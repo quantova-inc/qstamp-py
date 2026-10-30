@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qstamp"
+version = "0.1.0"
+description = "Pure Python verifier for Qstamp post quantum on chain evidence receipts"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0 OR MIT"
+authors = [{ name = "Quantova Inc", email = "Quantovaorg@gmail.com" }]
+keywords = ["qstamp", "post-quantum", "provenance", "merkle", "attestation", "audit"]
+
+[project.urls]
+Homepage = "https://qstamp.org"
+Source = "https://github.com/quantova-inc/qstamp-py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
